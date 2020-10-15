@@ -1,0 +1,22 @@
+@import "./sassConfig.scss";
+@import "./normalize.scss";
+// 全局性公共的样式
+body { 
+    background-color: #001529 !important; // 权重最高
+}
+.inline-button {
+    button + button { margin-left: 10px; }
+}
+.table-wrap { padding-top: 30px; }
+
+// text-align
+.text-center { text-align: center; }
+
+// color
+.color-red { color: #ff0000; }
+
+// float
+.pull-right { float: right; }
+
+// spacing
+.spacing-30 { height: 30px; }
